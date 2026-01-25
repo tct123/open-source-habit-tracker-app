@@ -19,7 +19,6 @@ module.exports = function (api) {
     ],
     plugins: [
       // expo-router should run first
-      "expo-router/babel",
       [
         "module-resolver",
         {
